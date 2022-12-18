@@ -12,7 +12,7 @@
     "coverage": "jest --coverage --force-exit --detectOpenHandles",
     "dev": "ts-node-dev --respawn --ignore-watch src/node_modules --transpile-only src index.ts",
     "start": "tsc && node dist/index.js",
-    "postinstall": "tsc",
+    "build": "tsc",
     "watch-node": "tsc && nodemon dist/index.js",
     "watch-ts": "tsc -w"
   },
